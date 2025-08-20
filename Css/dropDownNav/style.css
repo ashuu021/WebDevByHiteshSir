@@ -1,0 +1,31 @@
+.nav{
+    background-color: #56b1af;
+    padding:10px;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+color: white;
+padding: 10px;
+display: block;
+}
+.nav .dropdown-content{
+    display: none;
+}
+.nav .dropdown:hover .dropdown-content{
+    display: block;
+position: absolute;
+background: #56b1af;
+}
+.login-btn{
+border-radius: 15%;
+
+
+}
