@@ -29,3 +29,35 @@ border-radius: 15%;
 
 
 }
+#box{
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#box1{
+     height: 50px;
+    width: 50px;
+ 
+    background-color: #eb5f5f;
+}
+#box3{
+     height: 50px;
+    width: 50px;
+background-color: #31c73d;
+}
+#box2{
+     height: 50px;
+    width: 50px;
+background-color: #ecdb8b;
+}
+#box4{
+     height: 50px;
+    width: 50px;
+background-color: #8275e4;
+}
