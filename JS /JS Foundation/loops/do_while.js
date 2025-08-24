@@ -9,3 +9,5 @@ do {
 } while (i<=3);
 
 console.log(total);
+
+ 
