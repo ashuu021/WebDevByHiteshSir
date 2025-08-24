@@ -2,7 +2,7 @@ let nameList =["anshu","pari","anshika","abhi"];
 let checkName = [];
 for (const name of nameList) {
      if (name==="anshika") {
-        break;
+        continue; //break
      }
     checkName.push(name)
 }
