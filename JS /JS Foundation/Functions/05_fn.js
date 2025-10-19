@@ -8,3 +8,11 @@
  * 'teaMaker' and call it with "green tea".
  *
  */
+function createTeaMaker() {
+  return function(teaType) {
+    return `Making ${teaType}`;
+  };
+}
+let teaMaker = createTeaMaker();
+let teaMessage = teaMaker("green tea");
+console.log(teaMessage);
