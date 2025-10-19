@@ -6,3 +6,11 @@
  * Return the result of calling 'makeTea'.
  *
  */
+function makeTea(typeOfTea){
+return `makeTea : ${typeOfTea}`;
+}
+function processTeaOrder(teaFunction){
+return `earl grey`;
+}
+let orderTea = processTeaOrder(makeTea);
+console.log(orderTea);
