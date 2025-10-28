@@ -35,3 +35,10 @@ document.getElementById("removeLastTask").addEventListener("click",function () {
  taskList.firstElementChild.remove();
 //  taskList.lastElementChild.remove();
 });
+//Example 6
+document.getElementById("replaceImage").addEventListener("click",function () {
+    let img=document.getElementById("myImage");
+    img.src="https://www.w3schools.com/html/pic_trulli.jpg";
+    img.alt="Trulli";
+    img.style.width="300px";
+});
