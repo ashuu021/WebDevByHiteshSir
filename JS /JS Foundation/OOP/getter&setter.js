@@ -22,3 +22,5 @@ console.log(emp.getSalary()); // 50000
 
 emp.setSalary(60000);
 console.log(emp.getSalary()); // 60000
+emp.setSalary(60000);
+console.log(emp.getSalary()); // 60000
