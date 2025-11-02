@@ -5,4 +5,3 @@ const userName = "anshu021"
 // userName = "anshu001" This throw an error.Const cant be redefined.
 console.log(userName);
 
-console.log(gameName);
