@@ -10,3 +10,6 @@ let count=outer();
 console.log(count());
 console.log(count());
 console.log(count());
+console.log(count());
+console.log(count());
+console.log(count());
